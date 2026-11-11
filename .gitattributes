@@ -1,0 +1,6 @@
+# 默认 LF，但 Windows 批处理和 PowerShell 脚本必须是 CRLF，
+# 否则网页直接下载下来双击会跑不动。
+* text=auto eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
